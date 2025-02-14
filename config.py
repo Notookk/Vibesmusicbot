@@ -8,24 +8,24 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("12854711", None))
-API_HASH = getenv("76b1041b87188f95f3c3396831dd2b67", None)
+API_ID = int(getenv("API_ID", None))
+API_HASH = getenv("API_HASH", None)
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://copy:copy@cluster0.q6zqg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
-MUSIC_BOT_NAME = getenv("𓆩𝐀ᴋsʜᴜ ꭙ 𝐌ᴜsɪᴄ𓆪", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", 𓆩𝐀ᴋsʜᴜ ꭙ 𝐌ᴜsɪᴄ𓆪)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-1002240372506", None))
+LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @BRANDRD_ROBOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7379318591"))
+OWNER_ID = int(getenv("OWNER_ID", "7250012103"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,7 +43,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/vibes_I")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/love_mhe")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/auraoffriends")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
