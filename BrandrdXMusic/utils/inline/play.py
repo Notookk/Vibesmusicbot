@@ -219,7 +219,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="🍃ᴍᴏʀᴇ🍃,
+                text="🍃ᴍᴏʀᴇ🍃",
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
