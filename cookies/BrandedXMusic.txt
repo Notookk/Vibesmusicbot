@@ -1,7 +1,7 @@
 # Netscape HTTP Cookie File
 # This is a generated file! Do not edit.
 
-# domain		include_subdomains	path	secure	expiration_date	name	value
+# domain	include_subdomains	path	secure	expiration_date	name	value
 .google.com	TRUE	/	TRUE	1774543163	__Secure-3PSIDCC	AKEyXzWgTS8ZiA03BQUa_SpwfCDbdystt7dMYP6ThlbDymCswqvdENMxTSrFutIBF5qmrXO9
 .google.com	TRUE	/	TRUE	1774543032	__Secure-1PSIDCC	AKEyXzVsXWMgR04U_bZQU5vDG6xRo-EdU5IhzkLiipLbFuyyjBhmOqGyl9G52cFP9tIcirWRCg
 .google.com	TRUE	/	FALSE	1774543032	SIDCC	AKEyXzVkuKp43Bqx_9jZphm6rpeYyt_wA1GXw_mz9nYDqXR0s2R_m6ygHaTEVLxieZQYmie90Q
